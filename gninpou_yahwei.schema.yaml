@@ -4,9 +4,9 @@
 schema:
   schema_id: gninpou_yaqwei
   name: 寧波話（協會式拼音）
-  version: "0.1.0"
+  version: "0.1.1"
   author:
-    - Electric Sheep <shinzoqchiuq@outlook.com>
+    - Shin Zoqchiuq <shinzoqchiuq@outlook.com>
   description: |
     採用協會式吳語拼音
     老三區口音
