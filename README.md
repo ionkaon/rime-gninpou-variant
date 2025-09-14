@@ -1,4 +1,4 @@
-# 寧波話輸入方案（變體方案）
+# 寧波話輸入方案變體
 
 配方：℞ **ionkaon/rime-gninpou-variant**
 
