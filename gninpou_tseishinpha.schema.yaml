@@ -4,7 +4,7 @@
 schema:
   schema_id: gninpou_tseishinpha
   name: 寧波話（最新派）
-  version: "0.1.1"
+  version: "0.1.2"
   author:
     - Shin Zoqchiuq <shinzoqchiuq@outlook.com>
   description: |
@@ -68,56 +68,56 @@ speller:
     # io韻消失
     - erase/(^|c|j|gn|kn|[csz]h)(y|i)o$/
 
-    # 謝夜不分
+    # 謝 ≈ 夜
     - derive/zhi(?=[aoue])/y/
     - derive/zhi(?=[nqh]|$)/yi/
-    # 胡符不分
+    # 胡 ≈ 符
     - derive/wu$/vu/
     - derive/vu$/wu/
-    # 饅姆不分
+    # 饅 ≈ 姆
     - derive/mun/m/
-    # 亂漏不分
+    # 卵 ≈ 漏
     - xform/loe/leu/
 
     # 新派
 
-    # 且采不分
+    # 且 = 采
     - xform/c(h)?ie$/ts$1e/
     - xform/jie$/dze/
     - xform/(?<=[sz])hie$/e/
     - xform/^ye$/ghe/
-    # 降壯不分
+    # 降 = 壯
     - xform/ciaon/tsaon/
-    # 穿秋不分
+    # 穿 ≈ 秋
     - derive/ts(h)?oe$/c$1ieu/
     - derive/dzoe$/jieu/
     - derive/^(s|z)oe$/$1hieu/
-    # 掛架不分
+    # 掛 = 架
     - xform/(kh?)uo/$1o/
-    # 話夏不分
+    # 話 = 夏
     - xform/wo/gho/
     - xform/^(h)?uo/$1o/
-    # 官孤不分
+    # 官 = 孤
     - xform/(?<![iy])un/u/
-    # 春沖不分 出促不分
+    # 春 = 充，出 = 促
     - xform/(?<=[szh])(yu|oe)(?=[nqh])/o/
-    # 羣窮不分 缺吃不分
+    # 允 = 用，缺 = 喫
     - xform/(^y|i)u(?=[nqh])/$1o/
-    # 約一不分
+    # 削 = 吸
     - xform/ia(?=q|h)/i/
     - xform/ya(?=q|h)/yi/
 
-    # 歡夫不分
+    # 歡 ≈ 夫
     - derive/hu/fu/
-    # 江高不分
+    # 江 ≈ 高
     - derive/aon/au/
-    # 朋排不分
+    # 朋 ≈ 排
     - derive/an/a/
-    # 藍來不分
+    # 藍 ≈ 來
     - derive/ae/e/
-    # 九舉不分
+    # 九 ≈ 捲
     - derive/(?<=[yi])eu/u/
-    # 芋魚不分
+    # 芋（艿） ≈ 魚
     - derive/^n$/ng/
 
     # 清鼻邊音
