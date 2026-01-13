@@ -11,7 +11,7 @@ schema:
     採用學堂式吳語拼音（不兼容協會式）
     老三區口音
     https://www.wugniu.com/
-    https://github.com/shinzoqchiuq/rime-gninpou-variant/
+    https://github.com/ionkaon/rime-gninpou-variant/
   dependencies:
     - luna_pinyin
     - stroke
