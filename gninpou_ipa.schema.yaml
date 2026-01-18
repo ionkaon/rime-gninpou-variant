@@ -4,7 +4,7 @@
 schema:
   schema_id: gninpou_ipa
   name: 寧波話（IPA版）
-  version: "0.1.2"
+  version: "0.1.3"
   author:
     - Shin Zoqchiuq <shinzoqchiuq@outlook.com>
   description: |
@@ -22,7 +22,7 @@ switches:
     states: [ 中文, 西文 ]
   - name: full_shape
     states: [ 半角, 全角 ]
-  - name: simplification
+  - name: gninpou_ipa_simp
     reset: 1
     states: [ 漢字, 汉字 ]
   - name: ascii_punct
